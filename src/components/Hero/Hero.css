@@ -159,11 +159,11 @@
     top: 10%;
     left: 5%;
     animation-delay: 0s;
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(26, 11, 46, 0.9));
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(26, 11, 46, 0.9));
 }
 
 .card-1:hover {
-    box-shadow: var(--shadow-xl), var(--shadow-glow-purple);
+    box-shadow: var(--shadow-xl), var(--shadow-glow-green);
 }
 
 .card-2 {

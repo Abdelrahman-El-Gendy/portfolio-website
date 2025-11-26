@@ -44,6 +44,12 @@
     animation-delay: 0.2s;
 }
 
+/* Green Theme for 2nd Contact Method */
+.contact-method:nth-child(2) {
+    background: rgba(16, 185, 129, 0.05);
+    border-color: rgba(16, 185, 129, 0.1);
+}
+
 .contact-method:nth-child(3) {
     animation-delay: 0.3s;
 }
@@ -55,10 +61,22 @@
     box-shadow: 0 4px 20px rgba(124, 58, 237, 0.3);
 }
 
+/* Green Hover for 2nd Contact Method */
+.contact-method:nth-child(2):hover {
+    background: rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+}
+
 .contact-icon {
     font-size: 2rem;
     filter: drop-shadow(0 0 10px rgba(124, 58, 237, 0.6));
     transition: all var(--transition-bounce);
+}
+
+/* Green Icon for 2nd Contact Method */
+.contact-method:nth-child(2) .contact-icon {
+    filter: drop-shadow(0 0 10px rgba(16, 185, 129, 0.6));
 }
 
 .contact-method:hover .contact-icon {
@@ -149,6 +167,12 @@
     padding: 1.25rem 2rem;
     position: relative;
     overflow: hidden;
+    background: var(--gradient-emerald);
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.5);
+}
+
+.submit-btn:hover {
+    box-shadow: 0 8px 30px rgba(16, 185, 129, 0.7), var(--shadow-glow-green);
 }
 
 .submit-btn::after {
